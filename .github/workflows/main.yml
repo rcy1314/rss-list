@@ -34,8 +34,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install & Commit
         run: |
-          git config --global user.email "icolabot@e.yfun.top"
-          git config --global user.name "iColaBot"
+          git config --global user.email "1129159201@qq.com"
+          git config --global user.name "rcy1314"
           npm i prettier -g
           prettier --write .
           git add .
