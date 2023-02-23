@@ -44,5 +44,3 @@ jobs:
       - name: Push
         run: |
           git push origin main
-        with:
-          github_token: ${{ secrets.TOKEN }}
