@@ -27,12 +27,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Clone the Project
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.5
         with:
-          node-version: 12.x # optional
+          node-version: 16.x # optional
 
       # Runs a set of commands using the runners shell
       - name: Install & Commit
