@@ -37,8 +37,8 @@ jobs:
           git config --global user.email "1129159201@qq.com"
           git config --global user.name "rcy1314"
           npm i prettier -g
-          prettier --write .
-          git add .
+          prettier --write -A
+          git add -A
           git commit -m ":art: Made Code Prettier"
           
       - name: Push
