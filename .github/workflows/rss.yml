@@ -50,7 +50,7 @@ jobs:
           
       - name: Push
         run: |
-          #git remote add origin https://github.com/rcy1314/rss-list.git
+          #git remote add origin git@github.com:rcy1314/rss-list.git
           #git push origin gh-pages -f
           
       - name: Deploy
